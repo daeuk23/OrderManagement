@@ -9,44 +9,44 @@ May 12th ~ May 24th 2024 : Individually Ended
 contact: Email : a24738598@gmail.com  
 
 ## Feature for user
-** Ordering system ** : Allowed adding new sorce or new method    
-** Data handling ** : easily input new data of items and order  
-** Station-based storage systems ** : Significantly less likely to result in duplicate data  
-** Multiple Station Management Features ** : by Line Manager file  
+**Ordering system** : Allowed adding new sorce or new method    
+**Data handling** : easily input new data of items and order  
+**Station-based storage systems** : Significantly less likely to result in duplicate data  
+**Multiple Station Management Features** : by Line Manager file  
 
 ## Why this  
-** Memory efficiency ** -> Perfectly allocated and deleted memory, good for developing similar types of programs  
-** Less risk of duplicate data ** -> Similar units, such as station, linemanager, and workstation,   
+**Memory efficiency** -> Perfectly allocated and deleted memory, good for developing similar types of programs  
+**Less risk of duplicate data** -> Similar units, such as station, linemanager, and workstation,   
 are very unlikely to cause data confusion or error by separating them in different roles  
-** Classify each function ** into small, easy-to-understand units  
-** High cohesion + high consistency ** : good maintanence and high resuability  
+**Classify each function** into small, easy-to-understand units  
+**High cohesion + high consistency** : good maintanence and high resuability  
 
 ## Operable Files
 
 **Main**
-[main.c](main.cpp): Simplified interface request user new input of order or viewing item info  
+[main.c](rcs/main.cpp): Simplified interface request user new input of order or viewing item info  
 
 **CustomerOrder**  
 `CustomerOrder` class : Provides tracking of customer order information and item processing  
-[CustomerOrder.c](CustomerOrder.cpp), [Header](CustomerOrder.h)  
+[CustomerOrder.c](rcs/CustomerOrder.cpp), [Header](rcs/CustomerOrder.h)  
 
 **LineManager**  
 `LineManager` class : Classes representing line managers which act as controllers to control the flow of production lines and manage the order of each workstation  
-[LineManager.c](LineManager.cpp), [Header](LineManager.h)  
+[LineManager.c](rcs/LineManager.cpp), [Header](rcs/LineManager.h)  
 
 **Station**  
 `Station` class : Represents the station that manages one item on the production line.  
 Each station has a specific item and performs quantity management, serial number management, information output, etc  
-[Station.c](Station.cpp), [Header](Station.h)  
+[Station.c](rcs/Station.cpp), [Header](rcs/Station.h)  
 
 **Status**  
 `Workstation` class : It serves as a working station for the production line, is responsible for the logic  
 of processing CustomerOrder and delivering it to the next station, and is responsible for dealing with specific units in the assembly line.  
-[Workstation.c](Workstation.cpp), [Header](Workstation.h)  
+[Workstation.c](rcs/Workstation.cpp), [Header](rcs/Workstation.h)  
 
 **Utils**  
 `utilities` class : Additional function for effeciency.  
-[Utilities.c](Utilities.cpp), [Header](Utilities.h)  
+[Utilities.c](rcs/Utilities.cpp), [Header](rcs/Utilities.h)  
 
 ## Text Files  
 [AssmblyLine](txt/AssemblyLine.txt), [CustomerOrder](txt/CustomerOrders.txt), [Station1](txt/Stations1.txt), [Station2](txt/Stations2.txt)
