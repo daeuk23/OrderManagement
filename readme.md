@@ -5,8 +5,8 @@ This program simulates the entire process of assembling and processing products 
 It provides a way to track customer orders and products, while managing the workflow of the workstations. The program is implemented in C++.  
 
 ## Project Period
-May 12th ~ May 24th 2024 : Individually Ended  
-contact: Email : a24738598@gmail.com  
+May 12th ~ May 24th 2024 : Individually Ended   
+contact-> Email : a24738598@gmail.com  
 
 ## Feature for user
 **Ordering system** : Allowed adding new sorce or new method    
