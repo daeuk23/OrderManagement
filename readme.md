@@ -15,8 +15,8 @@ contact-> Email : a24738598@gmail.com
 **Multiple Station Management Features** : by Line Manager file  
 
 ## Why this  
-**Memory efficiency** -> Perfectly allocated and deleted memory, good for developing similar types of programs  
-**Less risk of duplicate data** -> Similar units, such as station, linemanager, and workstation,   
+**Memory efficiency** : Perfectly allocated and deleted memory, good for developing similar types of programs  
+**Less risk of duplicate data** : Similar units, such as station, linemanager, and workstation,   
 are very unlikely to cause data confusion or error by separating them in different roles  
 **Classify each function** into small, easy-to-understand units  
 **High cohesion + high consistency** : good maintanence and high resuability  
