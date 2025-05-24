@@ -23,7 +23,7 @@ are very unlikely to cause data confusion or error by separating them in differe
 
 ## Operable Files
 
-**Main**
+**Main**  
 [main.c](rcs/main.cpp): Simplified interface request user new input of order or viewing item info  
 
 **CustomerOrder**  
