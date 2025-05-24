@@ -24,7 +24,7 @@ are very unlikely to cause data confusion or error by separating them in differe
 ## Operable Files
 
 **Main**  
-[main.c](rcs/main.cpp): Simplified interface request user new input of order or viewing item info  
+[main.c](rcs/main.cpp) : Simplified interface request user new input of order or viewing item info  
 
 **CustomerOrder**  
 `CustomerOrder` class : Provides tracking of customer order information and item processing  
