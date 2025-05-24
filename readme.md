@@ -9,17 +9,17 @@ May 12th ~ May 24th 2024 : Individually Ended
 contact: Email : a24738598@gmail.com  
 
 ## Feature for user
-** Ordering system : Allowed adding new sorce or new method    
-** Data handling : easily input new data of items and order  
-** Station-based storage systems : Significantly less likely to result in duplicate data  
-** Multiple Station Management Features : by Line Manager file  
+** Ordering system ** : Allowed adding new sorce or new method    
+** Data handling ** : easily input new data of items and order  
+** Station-based storage systems ** : Significantly less likely to result in duplicate data  
+** Multiple Station Management Features ** : by Line Manager file  
 
 ## Why this  
-** Memory efficiency -> Perfectly allocated and deleted memory, good for developing similar types of programs  
-** Less risk of duplicate data -> Similar units, such as station, linemanager, and workstation,   
+** Memory efficiency ** -> Perfectly allocated and deleted memory, good for developing similar types of programs  
+** Less risk of duplicate data ** -> Similar units, such as station, linemanager, and workstation,   
 are very unlikely to cause data confusion or error by separating them in different roles  
-** Classify each function into small, easy-to-understand units  
-** High cohesion + high consistency : good maintanence and high resuability  
+** Classify each function ** into small, easy-to-understand units  
+** High cohesion + high consistency ** : good maintanence and high resuability  
 
 ## Operable Files
 
@@ -79,6 +79,12 @@ g++ test_filename.cpp -o test_run
 ./test_run
 ```
 => modify test_filename to actual tester name
+
+### 3. run txt files
+```bash
+./main Stations1.txt Stations2.txt CustomerOrders.txt AssemblyLine.txt
+```
+make sure to put txt files on same folder.  
 
 ## Example Output  
 Comare with It : [Example](txt/sampleoutput.txt)
