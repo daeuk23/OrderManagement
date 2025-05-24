@@ -3,9 +3,10 @@
 ## purpose 
 This program simulates the entire process of assembling and processing products by taking in CustomerOrders and passing them through multiple Workstations.   
 It provides a way to track customer orders and products, while managing the workflow of the workstations. The program is implemented in C++.  
+
 ## Project Period
 May 12th ~ May 24th 2024 : Individually Ended
-contact: Email : a24738598@gmail.com
+contact: Email : a24738598@gmail.com  
 
 ## Feature for user
 ** Ordering system : Allowed adding new sorce or new method    
@@ -38,7 +39,6 @@ are very unlikely to cause data confusion or error by separating them in differe
 Each station has a specific item and performs quantity management, serial number management, information output, etc  
 [Station.c](Station.cpp), [Header](Station.h)  
 
-
 **Status**  
 `Workstation` class : It serves as a working station for the production line, is responsible for the logic  
 of processing CustomerOrder and delivering it to the next station, and is responsible for dealing with specific units in the assembly line.  
@@ -48,6 +48,8 @@ of processing CustomerOrder and delivering it to the next station, and is respon
 `utilities` class : Additional function for effeciency.  
 [Utilities.c](Utilities.cpp), [Header](Utilities.h)  
 
+## Text Files  
+[AssmblyLine](txt/AssemblyLine.txt), [CustomerOrder](txt/CustomerOrders.txt), [Station1](txt/Stations1.txt), [Station2](txt/Stations2.txt)
 
 ## Compile In remote 
 G++ compiler required  
@@ -65,18 +67,18 @@ Clone my repo to your local
 
 ```bash
 git clone https://github.com/daeuk23/OrderManagement.git
-cd AidManProject
+cd orderManagement
 ```  
 ### 2. compile
 
 compile the tester files
 
 ```bash
-cd Programfiles
+cd orderManagement
 g++ test_filename.cpp -o test_run
 ./test_run
 ```
 => modify test_filename to actual tester name
 
 ## Example Output  
-Comare with It : [Example](sampleoutput.txt)
+Comare with It : [Example](txt/sampleoutput.txt)
