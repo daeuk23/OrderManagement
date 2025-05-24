@@ -24,29 +24,29 @@ are very unlikely to cause data confusion or error by separating them in differe
 ## Operable Files
 
 **Main**  
-[main.c](rcs/main.cpp) : Simplified interface request user new input of order or viewing item info  
+[main.cpp](rcs/main.cpp) : Simplified interface request user new input of order or viewing item info  
 
 **CustomerOrder**  
 `CustomerOrder` class : Provides tracking of customer order information and item processing  
-[CustomerOrder.c](rcs/CustomerOrder.cpp), [Header](rcs/CustomerOrder.h)  
+[CustomerOrder.cpp](rcs/CustomerOrder.cpp), [Header](rcs/CustomerOrder.h)  
 
 **LineManager**  
 `LineManager` class : Classes representing line managers which act as controllers to control the flow of production lines and manage the order of each workstation  
-[LineManager.c](rcs/LineManager.cpp), [Header](rcs/LineManager.h)  
+[LineManager.cpp](rcs/LineManager.cpp), [Header](rcs/LineManager.h)  
 
 **Station**  
 `Station` class : Represents the station that manages one item on the production line.  
 Each station has a specific item and performs quantity management, serial number management, information output, etc  
-[Station.c](rcs/Station.cpp), [Header](rcs/Station.h)  
+[Station.cpp](rcs/Station.cpp), [Header](rcs/Station.h)  
 
 **Status**  
 `Workstation` class : It serves as a working station for the production line, is responsible for the logic  
 of processing CustomerOrder and delivering it to the next station, and is responsible for dealing with specific units in the assembly line.  
-[Workstation.c](rcs/Workstation.cpp), [Header](rcs/Workstation.h)  
+[Workstation.cpp](rcs/Workstation.cpp), [Header](rcs/Workstation.h)  
 
 **Utils**  
 `utilities` class : Additional function for effeciency.  
-[Utilities.c](rcs/Utilities.cpp), [Header](rcs/Utilities.h)  
+[Utilities.cpp](rcs/Utilities.cpp), [Header](rcs/Utilities.h)  
 
 ## Text Files  
 [AssmblyLine](txt/AssemblyLine.txt), [CustomerOrder](txt/CustomerOrders.txt), [Station1](txt/Stations1.txt), [Station2](txt/Stations2.txt)
