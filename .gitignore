@@ -1,0 +1,13 @@
+# all in .vs
+.vs/
+
+# all inside x64 folder
+x64/
+
+# all .sln extentions
+*.sln
+
+# all .vcxproj extentions
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
